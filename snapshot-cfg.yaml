@@ -1,0 +1,14 @@
+- host_db:
+  - 10.10.10.10: [any]
+  - 10.10.10.20: [any]
+
+- username: arista
+  password: arista
+  tags:
+  - any
+
+- snapshot_commands:
+  - show hostname
+  - show ip bgp summary
+  tags:
+  - any
